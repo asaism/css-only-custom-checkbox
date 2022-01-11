@@ -12,6 +12,8 @@ const Home: NextPage = () => {
       </Head>
       <input type="checkbox" />
       <div className="icon"></div>
+      <div className="shadow"></div>
+      <div className="iconBox"></div>
     </label>
     
   )
