@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className="icon"></div>
       <div className="shadow"></div>
       <div className="iconBox">
-        <PowerOutline></PowerOutline>
+        <PowerOutline />
       </div>
     </label>
     
