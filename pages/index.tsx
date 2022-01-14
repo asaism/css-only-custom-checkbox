@@ -12,10 +12,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <input type="checkbox" />
-      <div className="icon"></div>
-      <div className="shadow"></div>
-      <div className="iconBox">
-        <PowerOutline />
+      <div className="icon">
+        <div className="shadow"></div>
+        <div className="iconBox">
+          <PowerOutline />
+        </div>
       </div>
     </label>
     
