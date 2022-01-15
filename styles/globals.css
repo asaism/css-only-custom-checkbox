@@ -93,14 +93,14 @@ label input:checked ~ .icon {
     20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1),
     inset 1px 1px 2px #fff;
 }
-ion-icon {
+.ion-icon {
   position: absolute;
   color: #555;
   font-size: 1.5em;
   --ionicon-stroke-width: 50px;
   transition: 0.5s;
 }
-label input:checked ~ .icon ion-icon {
+label input:checked ~ .icon .ion-icon {
   color: #00ffe2;
   filter: drop-shadow(0 0 5px #00ffe2) drop-shadow(0 0 15px #00ffe2);
 }

@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import { PowerOutline } from 'react-ionicons'
 
 const Home: NextPage = () => {
@@ -15,7 +14,9 @@ const Home: NextPage = () => {
       <div className="icon">
         <div className="shadow"></div>
         <div className="iconBox">
-          <PowerOutline />
+          <div className="ion-icon">
+            <PowerOutline />
+          </div>
         </div>
       </div>
     </label>
